@@ -30,6 +30,7 @@ resource "google_compute_instance_template" "inst_template_public" {
     app-name         = "my-awesome-app"
     server-visiblity = "public"
   }
+  depends_on = [ google_compute_network.vpc_network ]
 
   tags = ["my-awesome-app-server-public"]
 
