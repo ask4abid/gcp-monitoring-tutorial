@@ -7,7 +7,7 @@ sudo apt-get install python3-pip git stress -y
 # curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
 # sudo bash add-google-cloud-ops-agent-repo.sh --also-install
 
-git clone https://github.com/salimpadela/gcp-monitoring-tutorial.git
+git clone https://github.com/ask4abid/gcp-monitoring-tutorial.git
 cd gcp-monitoring-tutorial
 pip install -r requirements.txt
 chmod +x app.py
